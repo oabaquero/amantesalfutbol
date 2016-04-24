@@ -39,6 +39,12 @@ AppAsset::register($this);
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
+            ['label' => 'Hola', 'url' => ['/site/hola']],
+            ['label' => 'Saluda', 'url' => ['/site/saluda']],
+            ['label' => 'View', 'url' => ['/site/view']],
+            ['label' => 'Create', 'url' => ['/site/create']],
+            ['label' => 'Register User', 'url' => ['/site/register']],
+            ['label' => 'Recover Pass', 'url' => ['/site/recoverpass']],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
